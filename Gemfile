@@ -13,7 +13,7 @@ gem 'mysql2'
 # Deploy with Capistrano
 # gem 'capistrano'
 
-# To use debugger
+# To use debugger`
 # gem 'ruby-debug'
 
 # Bundle the extra gems:
@@ -25,6 +25,8 @@ gem 'mysql2'
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
-# group :development, :test do
-#   gem 'webrat'
-# end
+group :development, :test do
+  gem 'webrat'
+  gem 'shoulda'
+  gem 'mocha'
+end

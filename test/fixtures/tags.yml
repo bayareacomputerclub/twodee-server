@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  entity_id: 1
+  namespace: MyString
+  predicate: MyString
+  value: MyText
+
+two:
+  entity_id: 1
+  namespace: MyString
+  predicate: MyString
+  value: MyText
