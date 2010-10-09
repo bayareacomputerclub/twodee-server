@@ -1,5 +1,9 @@
 TwoDee::Application.routes.draw do
   devise_for :users
+  
+  resources :entities
+  
+  resources :tags
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
